@@ -1,3 +1,4 @@
 .cred
 .ipynb_checkpoints/
 .nfs*
+*.h5
