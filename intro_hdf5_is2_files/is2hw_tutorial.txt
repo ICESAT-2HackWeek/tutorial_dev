@@ -1,0 +1,38 @@
+ICESat2-HackWeek
+----------------
+
+Tutorial:
+    Large-scale crossover analysis of ICESat-2 data
+
+Instructors:
+    - Fernando Paolo (paolofer@jpl.nasa.gov)
+    - Johan Nilsson (johan.nilsson@jpl.nasa.gov)
+
+Goals:
+    - Handle IS2 HDF5 files / Extract variables of interest
+    - Split/Tile/Merge/Join large data sets for parallel processing
+    - Learn simple/generic data parallelization strategy
+    - Assess data quality with crossover analysis
+    - Make informative plots (Histog, Maps, Time Series)
+
+Code (you'll have access to):
+    - code for reading IS2 HDF5/extracting variables (in parallel)
+    - code for splitting/merging spatial data (in parallel)
+    - code for crossover analysis (in parallel)
+    - Full access to CapToolKit (MEaSUREs Python lib for altimetry data)
+
+Tools/Libraries:
+    - h5py (HDF5 handling)
+    - pytables (HDF5 handling)
+    - joblib (shared-memory parallelization)
+    - matplotlib (visualization routines)
+    - numpy (numerical routines)
+    - scipy (scientific routines)
+    - pyproj (map projection routines)
+    - argparse (arguments parsing)
+    - glob (pathname pattern expansion)
+
+Recipe:        
+    1. xxx
+    2. yyy
+    3. zzz
