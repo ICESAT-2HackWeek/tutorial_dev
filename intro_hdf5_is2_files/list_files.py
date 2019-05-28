@@ -24,7 +24,7 @@ def list_files(host, user, pwd, cmd):
     return files
 
 
-host, user, pwd = 'devon.jpl.nasa.gov', 'paolofer', 'Buzios19@' 
+host, user, pwd = 'devon.jpl.nasa.gov', 'paolofer', '*********' 
 cmd = 'ls /u/devon-r2/shared_data/icesat2/atl06/rel205/raw/*.h5'
 
 files = list_files(host, user, pwd, cmd)
